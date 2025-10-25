@@ -1,0 +1,20 @@
+2025-07-04 22:34:08 INFO:  * Restarting with stat
+2025-07-04 22:34:10 WARNING:  * Debugger is active!
+2025-07-04 22:34:10 INFO:  * Debugger PIN: 442-753-341
+2025-07-04 22:34:10 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-07-04 22:34:31 INFO:  * Restarting with stat
+2025-07-04 22:34:33 WARNING:  * Debugger is active!
+2025-07-04 22:34:33 INFO:  * Debugger PIN: 442-753-341
+2025-07-04 22:34:33 INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-07-04 22:35:51 INFO: 127.0.0.1 - - [04/Jul/2025 22:35:51] "GET / HTTP/1.1" 200 -
+2025-07-04 22:35:57 INFO: 127.0.0.1 - - [04/Jul/2025 22:35:57] "GET /register HTTP/1.1" 200 -
+2025-07-04 22:36:29 INFO: User registered: DOC38b20
+2025-07-04 22:36:29 INFO: 127.0.0.1 - - [04/Jul/2025 22:36:29] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-07-04 22:36:29 INFO: 127.0.0.1 - - [04/Jul/2025 22:36:29] "GET /login HTTP/1.1" 200 -
+2025-07-04 22:36:58 INFO: Login success: DOC38b20 as doctor
+2025-07-04 22:36:58 INFO: 127.0.0.1 - - [04/Jul/2025 22:36:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-07-04 22:36:58 INFO: 127.0.0.1 - - [04/Jul/2025 22:36:58] "GET /doctor_dashboard HTTP/1.1" 200 -
+2025-07-04 22:37:18 INFO: 127.0.0.1 - - [04/Jul/2025 22:37:18] "GET /doctor/profile HTTP/1.1" 200 -
+2025-07-04 22:37:21 INFO: 127.0.0.1 - - [04/Jul/2025 22:37:21] "GET /doctor_dashboard HTTP/1.1" 200 -
+2025-07-04 22:37:22 INFO: 127.0.0.1 - - [04/Jul/2025 22:37:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-04 22:37:22 INFO: 127.0.0.1 - - [04/Jul/2025 22:37:22] "GET / HTTP/1.1" 200 -
